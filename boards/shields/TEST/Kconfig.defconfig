@@ -13,5 +13,6 @@ if SHIELD_TEST_LEFT || SHIELD_TEST_RIGHT
 
 config ZMK_SPLIT
     default y
+    CONFIG_ZMK_POINTING=y
 
 endif
