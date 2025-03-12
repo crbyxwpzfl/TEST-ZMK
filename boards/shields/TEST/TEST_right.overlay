@@ -1,0 +1,3 @@
+&default_transform { // Offset of 7 because the left side has 7 columns
+    col-offset = <7>;
+};
