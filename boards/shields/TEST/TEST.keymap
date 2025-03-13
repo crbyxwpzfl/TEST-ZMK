@@ -30,10 +30,10 @@
 
         main {
             bindings = <
-&trans        &kp Q         &kp W   &kp F  &kp P             &kp B                       &kp J   &kp L        &kp U      &kp Y       &kp ESC    &trans
-&trans        &kp A         &kp R   &kp S  &mt LEFT_SHIFT T  &kp G   &trans      &trans  &kp M   &kp N        &kp E      &kp I       &kp O      &trans
-&trans        &kp Z         &kp X   &kp C  &kp D             &kp V   &trans      &trans  &kp K   &kp H        &kp COMMA  &kp PERIOD  &kp MINUS  &trans
-&bt BT_SEL 0  &bt BT_SEL 1  &trans  &mo 1  &lt 1 SPACE       &trans  &trans      &trans  &trans  &lt 2 SPACE  &mo 2      &trans      &trans     &trans
+&kp A  &kp Q  &kp W  &kp F  &kp P             &kp B                    &kp J  &kp L  &kp U      &kp Y       &kp ESC    &kp A
+&kp A  &kp A  &kp R  &kp S  &mt LEFT_SHIFT T  &kp G  &kp A      &kp A  &kp M  &kp N  &kp E      &kp I       &kp O      &kp A
+&kp A  &kp Z  &kp X  &kp C  &kp D             &kp V  &kp A      &kp A  &kp K  &kp H  &kp COMMA  &kp PERIOD  &kp MINUS  &kp A
+&kp A  &kp A  &kp A  &kp A  &kp A             &kp A  &kp A      &kp A  &kp A  &kp A  &kp A      &kp A       &kp A      &kp A
             >;
         };
 
