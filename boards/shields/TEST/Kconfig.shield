@@ -4,4 +4,4 @@ config SHIELD_MY_KEYBOARD_LEFT
 
 # No whitespace after the comma or in your part name!
 config SHIELD_MY_KEYBOARD_RIGHT
-    def_bool $(shields_list_contains,RIGHT_right)
+    def_bool $(shields_list_contains,TEST_right)

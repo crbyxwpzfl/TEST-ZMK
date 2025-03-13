@@ -20,8 +20,8 @@
         };
 
         pair {
-            bindings = <&bt BT_CLR>;
-            key-positions = <41 40>;
+            bindings = <&bt BT_CLR_ALL>;
+            key-positions = <52 53>;
         };
     };
 
@@ -30,10 +30,10 @@
 
         main {
             bindings = <
-&kp A  &kp Q  &kp W  &kp F  &kp P        &kp B                    &kp J  &kp L  &kp U      &kp Y       &kp ESC    &kp A
-&kp A  &kp A  &kp R  &kp S  &kp T        &kp G  &kp A      &kp A  &kp M  &kp N  &kp E      &kp I       &kp O      &kp A
-&kp A  &kp Z  &kp X  &kp C  &kp D        &kp V  &kp A      &kp A  &kp K  &kp H  &kp COMMA  &kp PERIOD  &kp MINUS  &kp A
-&kp A  &kp A  &kp A  &kp A  &kp A        &kp A  &kp A      &kp A  &kp A  &kp A  &kp A      &kp A       &kp A      &kp A
+&kp A  &kp Q  &kp W  &kp F  &kp P        &kp B                    &kp J  &kp L  &kp U      &kp Y       &kp ESC       &kp A
+&kp A  &kp A  &kp R  &kp S  &bootloader  &kp G  &kp A      &kp A  &kp M  &kp N  &kp E      &kp I       &kp O         &kp A
+&kp A  &kp Z  &kp X  &kp C  &kp D        &kp V  &kp A      &kp A  &kp K  &kp H  &kp COMMA  &kp PERIOD  &kp MINUS     &kp A
+&kp A  &kp A  &kp A  &kp A  &kp A        &kp A  &kp A      &kp A  &kp A  &kp A  &kp A      &kp A       &bt BT_SEL 0  &bt BT_SEL 1
             >;
         };
 
